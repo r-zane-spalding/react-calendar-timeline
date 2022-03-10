@@ -1,6 +1,6 @@
 {
   "name": "@r-zane-spalding/react-calendar-timeline",
-  "version": "0.27.2-beta",
+  "version": "0.27.3-beta",
   "description": "react calendar timeline",
   "main": "lib/index.js",
   "scripts": {
@@ -16,8 +16,10 @@
   },
   "files": [
     "lib",
-    "src"
+    "src",
+    "index.d.ts"
   ],
+  "types": "index.d.ts",
   "homepage": "https://github.com/r-zane-spalding/react-calendar-timeline",
   "repository": {
     "type": "git",
