@@ -1,6 +1,6 @@
 {
   "name": "@r-zane-spalding/react-calendar-timeline",
-  "version": "0.27.3-beta",
+  "version": "0.27.4-beta",
   "description": "react calendar timeline",
   "main": "lib/index.js",
   "scripts": {
@@ -16,8 +16,7 @@
   },
   "files": [
     "lib",
-    "src",
-    "index.d.ts"
+    "src"
   ],
   "types": "index.d.ts",
   "homepage": "https://github.com/r-zane-spalding/react-calendar-timeline",
@@ -116,7 +115,7 @@
     "jest-watch-typeahead": "^0.3.1",
     "jsdom": "^11.5.1",
     "moment": "^2.11.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^6.0.1",
     "prettier": "^1.10.2",
     "prettier-eslint-cli": "^4.7.0",
     "prop-types": "^15.6.2",
@@ -133,7 +132,9 @@
     "style-loader": "~0.13.0",
     "webpack": "^4.16.3",
     "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.5"
+    "webpack-dev-server": "^3.1.5",
+    "node-pre-gyp": "0.17.0",
+    "fsevents": "2.2.1"
   },
   "bugs": {
     "url": "https://github.com/r-zane-spalding/react-calendar-timeline/issues"
