@@ -18,7 +18,7 @@
     "lib",
     "src"
   ],
-  "types": "index.d.ts",
+  "types": "src/index.d.ts",
   "homepage": "https://github.com/r-zane-spalding/react-calendar-timeline",
   "repository": {
     "type": "git",
