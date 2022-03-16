@@ -1,5 +1,4 @@
 import React from 'react'
-import 'react-testing-library/cleanup-after-each'
 import render from '../../test-utility/renderWithTimelineStateAndHelpers'
 import Item from 'lib/items/Item'
 import { items } from '../../../__fixtures__/itemsAndGroups'

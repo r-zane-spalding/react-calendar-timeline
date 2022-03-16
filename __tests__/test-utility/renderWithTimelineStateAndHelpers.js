@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from 'react-testing-library'
+import { render } from '@testing-library/react'
 import { items, groups } from '../../__fixtures__/itemsAndGroups'
 import { props, state } from '../../__fixtures__/stateAndProps'
 import { HelpersContextProvider } from '../../src/lib/timeline/HelpersContext'

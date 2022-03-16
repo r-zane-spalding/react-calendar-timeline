@@ -1,6 +1,6 @@
 {
   "name": "@r-zane-spalding/react-calendar-timeline",
-  "version": "0.27.5-beta",
+  "version": "0.27.6-beta",
   "description": "react calendar timeline",
   "main": "lib/index.js",
   "scripts": {
@@ -71,7 +71,7 @@
   },
   "dependencies": {
     "classnames": "^2.2.6",
-    "create-react-context": "^0.2.2",
+    "create-react-context": "^0.3.0",
     "element-resize-detector": "^1.1.12",
     "lodash.isequal": "^4.5.0",
     "memoize-one": "^5.1.1"
@@ -80,8 +80,8 @@
     "interactjs": "^1.3.4",
     "moment": "*",
     "prop-types": "^15.6.2",
-    "react": ">=16.3",
-    "react-dom": ">=16.3"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.0",
@@ -100,7 +100,7 @@
     "css-loader": "~0.26.0",
     "d3": "^5.12.0",
     "enzyme": "^3.10.0",
-    "enzyme-adapter-react-16": "^1.14.0",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.6",
     "eslint": "^4.16.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-config-standard": "^6.2.1",
@@ -120,21 +120,19 @@
     "prettier-eslint-cli": "^4.7.0",
     "prop-types": "^15.6.2",
     "randomcolor": "^0.5.3",
-    "react": "^16.10.2",
-    "react-dnd": "^9.3.4",
+    "react": "^17.0.2",
+    "react-dnd": "^15.1.1",
     "react-dnd-html5-backend": "^9.3.4",
-    "react-dom": "^16.10.2",
+    "react-dom": "17.0.2",
     "react-router-dom": "^4.1.1",
-    "react-testing-library": "^6.0.3",
+    "@testing-library/react": "^12.1.4",
     "regenerator-runtime": "^0.13.2",
     "rimraf": "^2.6.2",
     "sass-loader": "^7.0.3",
     "style-loader": "~0.13.0",
     "webpack": "^4.16.3",
     "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.5",
-    "node-pre-gyp": "0.17.0",
-    "fsevents": "2.2.1"
+    "webpack-dev-server": "^3.1.5"
   },
   "bugs": {
     "url": "https://github.com/r-zane-spalding/react-calendar-timeline/issues"

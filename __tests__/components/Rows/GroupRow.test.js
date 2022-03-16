@@ -1,10 +1,9 @@
 import React from 'react'
-import { fireEvent} from 'react-testing-library';
+import { fireEvent} from '@testing-library/react';
 import render from '../../test-utility/renderWithTimelineStateAndHelpers'
 import { noop } from 'test-utility'
 import GroupRow from 'lib/rows/GroupRow'
 import {RenderGroupRowWrapper} from '../../test-utility/groupRow-renderer'
-import 'react-testing-library/cleanup-after-each'
 import '@testing-library/jest-dom/extend-expect'
 
 const defaultProps = {
