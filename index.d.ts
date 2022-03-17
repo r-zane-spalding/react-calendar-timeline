@@ -10,7 +10,7 @@
 import * as React from 'react';
 import { Moment } from 'moment';
 
-declare module '@r-zane-spalding/react-calendar-timeline' {
+declare module '@babylimon/react-calendar-timeline' {
     type Id = number | string;
 
     export interface TimelineGroupBase {
