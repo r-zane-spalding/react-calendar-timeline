@@ -1,3 +1,6 @@
+> Fork of the main [React Calendar Timeline project](https://github.com/namespace-ee/react-calendar-timeline/tree/master/examples)
+> For a list of changes from the base project, check out the [release notes](release_notes.md)
+
 # React Calendar Timeline
 
 A modern and responsive React timeline component.
