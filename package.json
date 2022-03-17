@@ -1,5 +1,5 @@
 {
-  "name": "@r-zane-spalding/react-calendar-timeline",
+  "name": "@babylimon/react-calendar-timeline",
   "version": "0.27.6-beta",
   "description": "react calendar timeline",
   "main": "lib/index.js",
